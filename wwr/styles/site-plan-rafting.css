@@ -49,7 +49,7 @@ body {
   nav {
     background-color: var(--nav-background-color);
     display: flex;
-    font-size: 1.r2em;
+    font-size: 1.2rem;
   }
   nav  {
     list-style-type: none;
