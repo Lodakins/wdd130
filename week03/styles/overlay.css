@@ -19,6 +19,14 @@ h2 {
 	margin: 10px auto;
 }
 
+h1 {
+    color: #999BBB;
+    /* font-size: larger; */
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px;
+  }
+
 .herodiv img {
 	width: 100%;
 	height: 100%;
