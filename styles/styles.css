@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header,footer,.grid{
-    max-width: 1040px;
+    max-width: 840px;
     margin: 0 auto;
 }
 
