@@ -1,5 +1,11 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;500&display=swap');
- *{
+
+
+
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
