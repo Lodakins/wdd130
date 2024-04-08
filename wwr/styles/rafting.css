@@ -256,11 +256,11 @@ form{
  .column2{
     grid-template-columns:  1fr;
  }
- .purpose{
+ .purp{
     grid-template-columns: 1fr;
  }
  .subscribe{
-    grid-template-columns: 1fr;
+    grid-template-columns: 40px 1fr;
  }
  .contact-cont{
     display: grid;
