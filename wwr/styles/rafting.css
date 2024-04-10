@@ -51,7 +51,7 @@ img{
     width: auto;
     height: auto;
 }
-.hero{
+.hero, .trip-header{
     position: relative;
 }
 .hero h1 {
@@ -287,3 +287,89 @@ form{
     width: 100%;
     height: 100%;
  }
+
+ /*======================
+        TRIPS
+ =========================*/
+ .trip-header div{
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    background-color: rgb(255, 255, 255,.4);
+    padding: 30px 20px;
+ }
+ .trip-header h1 {
+    color: var(--headline-color-on-white);
+    font-weight: 600;
+    font-size: 48px;
+    width: 100%;
+    padding: 15px;
+}
+
+.trips_adventures .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.trips_adventures .gallery img {
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+}
+.trips-details{
+    width: 100%;
+
+}
+.trips-details thead{
+    background-color: var(--headline-color-on-white);
+    color: #fff;
+    
+}
+.trips-details td,.trips-details th{
+    border: 2px solid var(--nav-hover-background-color);
+    margin: 0px;
+    padding: 20px;
+    color: #1D3557;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: var(--heading-font);
+}
+.trips-details th{
+    color: #fff;
+}
+
+  
+#newsletter{
+    margin-top: 90px;
+  }
+  #cont{
+    background-color: var(--headline-color-on-white);
+    padding: 40px 50px;
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 20px;
+  }
+  #newsletter .title{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0px;
+  }
+  #newsletter .title-cont{
+    display: flex;
+    align-items: center;
+  }
+  #newsletter .text{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .input-group{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+  }
+  .input-group input{
+    padding: 0px;
+    height: 40px;
+  }
